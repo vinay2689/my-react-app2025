@@ -1,0 +1,29 @@
+.footer {
+  background: #222;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.footer-title {
+  margin: 0 0 0.5rem 0;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footer-nav a:hover {
+  color: #61dafb;
+}
